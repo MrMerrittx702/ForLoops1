@@ -134,7 +134,7 @@ class ForLoops1Test {
     System.setOut(originalOut);
   }
   
-  
+  @Test
   public void testEnhanced2dArray()
   {
     PrintStream originalOut = System.out; ByteArrayOutputStream bos = new ByteArrayOutputStream(); System.setOut(new PrintStream(bos));
