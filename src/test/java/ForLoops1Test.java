@@ -145,7 +145,7 @@ class ForLoops1Test {
     ForLoops1.enhanced2dArray(array);
 
     // assertion
-    assertEquals("a b c d " + System.lineSeparator() + "e f g h " + System.lineSeparator() + "i j k l" + System.lineSeparator(), bos.toString());
+    assertEquals("a b c d " + System.lineSeparator() + "e f g h " + System.lineSeparator() + "i j k l " + System.lineSeparator(), bos.toString());
 
     // undo the binding in System
     System.setOut(originalOut);
